@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="users.css" rel="stylesheet" type="text/css">
+    </link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="users.js"> </script>
+    <title>Portfolio de CVs</title>
+  </head>
+  <body>
+    <div class="containerPanel" id="panel">
+        <div class="containerPanelImg">
+            <img id="src" alt="">
+        </div> 
+        
+        <div class="containerPanelName">
+            <h1 class="name" id="nameC"></h1>
+        </div>
+        
+    </div>
+    <div class="containinfo">
+        <div class="containinfoemail">
+            <button>
+                <i class="fas fa-user"></i>
+                <p id="mail"></p>
+            </button>
+        </div>
+
+        <div class="containinfophone">
+            <button onclick="botonPhone()">
+                    <i class="fas fa-phone"></i>
+                    <i class="fas fa-mobile-alt"></i>
+            <p>Contacto</p>
+            </button>
+            <div id="listPH" class="listPH">
+                <ul type="none">
+                    <li id="phone" ></li>
+                    <li id="cell"></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="contailinfodir">
+            <button onclick="onClick()">
+                <i class="fas fa-globe"></i>
+                <p id="address"></p>
+                <div id="list" class="list">
+                    <ul type="none">
+                        <li id="city"></li>
+                        <li id="state"></li>
+                        <li id="country"></li>
+                        <li id="postcode"></li>
+                    </ul>
+                </div>
+            </button>
+
+        </div>
+        <div class="containinfoage">
+            <button onclick="birth()">
+            <i class="fas fa-gifts"></i>
+            <p id="birth"></p>
+            <p id="age"></p>
+            </button>
+        </div>
+    </div>
+
+    <div class="containerBox" id="boxes">
+        <div class="box">
+        <p style="font-size: 22px;">Formacion Academica</p>
+        <p> <strong>Educación Secundaria Obligatoria </strong> <br>
+            IES Maestro Juan de Ávila, Ciudad Real <br>
+            Septiembre de 2010 - Junio de 2014 <br> <br>
+           <strong>Bachillerato en Ciencias Sociales</strong>  <br>
+            IES Castelao, Vigo <br>
+            Septiembre de 2014 - Junio de 2016 <br> <br>
+            <strong>Grado en Marketing y Publicidad</strong>  <br>
+            Universidad Complutense de Madrid <br>
+            Septiembre de 2016 - Junio de 2020 <br> <br></p>
+        <div class="buttonVerMas">
+            <button onclick="redireccionarEduc()">Ver mas -> </button>
+        </div>
+        </div>
+        <div class="box">
+            <p style="font-size: 22px;">Cualidades</p>
+            <p>1.Conocimientos informáticos. <br>
+                2. Trabajo en equipo. <br>
+                3. Habilidades comunicativas. <br>
+                4. Capacidad de adaptación. <br>
+                5. Asertividad. <br>
+                6. Resolución de problemas. <br>
+                7. Proactividad. <br>
+                8. Planificación de tareas. <br>
+                9. Creatividad. <br>
+                10. Deseos de aprender.............. <br></p>
+            <div class="buttonVerMas">
+                <button onclick="redireccionarC()">Ver mas -> </button>
+            </div>
+        </div>
+
+        <div class="box">
+            <p style="font-size: 22px;">Experiencia</p>
+            <p><strong>Voluntario</strong>
+                <br>
+                Asilo de Ancianos La Esperanza
+                <br>
+                Enero 2016 - diciembre 2016
+                <br>
+                *Colaboré a servir los almuerzos para las 50 personas mayores del asilo. <br>
+                *Organicé un programa de actividades recreativas para entretener a los residentes durante los fines de semana. <br>
+                *Realicé un calendario de visitas familiares que aumentó la eficiencia en la planeación y logística de los ingresos al asilo en un 20% <br>
+                ......................</p>
+            <div class="buttonVerMas">
+                <button onclick="redireccionar()">Ver mas -> </button>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body{
+    margin: 50px;
+    background-image: url('background3.jpg');
+    background-size: 100%;
+}
+
+.containerPanel{
+    width: 100%;
+    height: auto;
+    background-color: lightblue;
+    border-radius: 16px;
+}
+
+.containerPanelImg{
+    padding-top: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    float: left;
+}
+.containerPanelImg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    display: block;
+}
+
+.containerPanelName{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+p {
+    font-family: 'Shantell Sans', cursive;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+}
+
+button {
+    background: lightblue;
+    border: black;
+    transition: all ease 400ns;
+    font-size: 24PX;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    background-color: lightblue;
+    color: #000;
+    border-radius: 8px;
+}
+
+strong {
+    font-size: 16px;
+}
+
+.text{
+    display: flex;
+}
